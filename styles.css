@@ -216,7 +216,7 @@ template {
 .handjetHero {
   font-family: "Handjet", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 350;
+  font-weight: 330;
   font-style: normal;
   font-variation-settings:
     "ELGR" 1,
@@ -336,6 +336,28 @@ section {
 #langContainer {
   display: flex;
   gap: 24px;
+}
+
+#aboutMe {
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  gap:50px;
+}
+
+#aboutMeTextContainer {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#aboutMeTextContainer p {
+  font-size: 2rem;
+}
+
+#myFace {
+
 }
 
 /* Animations 
