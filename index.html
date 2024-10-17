@@ -4,30 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Sniglet:wght@400;800&family=Space+Grotesk:wght@300..700&family=Geo:ital@0;1&display=swap" rel="stylesheet">
   <title>Portfolio basic</title>
 </head>
 <body>
-  <header>
-    <h1 class="upSpawn" id="name">Sofia Sola</h1>
-    <div id="topWrapper">
-      <p class="upSpawn">made with:</p>
-      <img class="upSpawn" id="topIcon1" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height="24" width="24" />
-      <img class="upSpawn" id="topIcon2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" height="24" width="24" />
-      <img class="upSpawn" id="topIcon3" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="24" width="24" />
+
+  <hero class="flexColumn textIsCentered">
+    <div id="introContainer">
+      <p class="upSpawn handjetHero noMargin" id="introText">Hey! I'm Sofia.<br>I'm a full stack web developer.</p>
+      <a class="upSpawn geoRegular" id="aboutMe">about me</a>
     </div>
-    <!-- <img class="upSpawn" id="avatar" src="assets/cntowersofism.png" height="202" width="227" alt="Sofia's face"> -->
-  </header>
-  <nav>
-    <ul>
-      <li class="upSpawn">projects</li>
-      <li class="upSpawn">about me</li>
-      <li class="upSpawn">contact</li>
-    </ul>
-  </nav>
-  <section class="colored">
-    <div class="coloredContainer">
-      <h1>Hello!</h1>
+  </hero>
+
+  <section class="altColor noMargin" id="infoSection">
+    <div class="hasTextCentered spaceGrotesk">
+      <h1>Your Friendly Full-Stack Developer</h1>
+      <h2></h2>
     </div>
   </section>
+
 </body>
 </html>

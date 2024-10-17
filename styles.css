@@ -212,50 +212,113 @@ template {
 /* My styling 
   ============================================================================== */
 
+
+.handjetHero {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+  font-size: 4rem;
+}
+
+.geoRegular {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.geoItalic {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.snigletRegular {
+  font-family: "Sniglet", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.snigletExtrabold {
+  font-family: "Sniglet", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
+ 
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 300 to 700 */
+
+.spaceGroteskThin {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spaceGrotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.textIsCentered {
+  text-align: center;
+}
+
+.altColor {
+  background-color: rgb(124, 48, 196);
+}
+
+.rounded {
+  border-radius: 15px;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
 body {
   background-color:rgb(34, 34, 34);
   color:rgb(231, 231, 231);
+}
+
+hero {
+  height: 100vh;
+  justify-content: center;
+}
+
+section {
   margin: 36px;
 }
 
-ul {
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-
-  margin: 0;
-  padding: 0;
+#infoSection {
+  padding: 50px;
+  text-wrap: wrap;
 }
 
-p {
-  margin: 0;
+#introText {
+  font-size: 4rem;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  gap: 50%
-}
-
-#avatar {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-}
-
-#topWrapper {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 4px;
-}
-
-#name {
-  justify-self: flex-start;
-}
-
-#colored {
-  background-color: blueviolet;
+#aboutMe {
+  color: rgb(255, 79, 47);
+  font-size: 3rem;
+  outline: solid;
 }
 
 /* Animations 
