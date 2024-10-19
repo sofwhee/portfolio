@@ -386,20 +386,21 @@ a {
 }
 
 #myFaceContainer {
-  top: 5vh;
-  left: 5vw;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  margin-left: 5vw;
 }
 
 #myFace {
   height: 65%
 }
 
-#myFaceBackground {
+/* #myFaceBackground {
   height: 70%;
   width: 120%;
   z-index: -1;
   margin-right: 15px;
-}
+} */
 
 #aboutMeTextContainer {
   width: 60vw;
