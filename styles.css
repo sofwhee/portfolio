@@ -403,6 +403,12 @@ a {
 
 #aboutMeBackground {
   position: absolute;
+  height: 90vh;
+  width: 95vw;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  z-index: -1;
 }
 
 /* Animations 
