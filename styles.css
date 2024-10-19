@@ -401,6 +401,10 @@ a {
   width: 30vw;
 }
 
+#aboutMeBackground {
+  position: absolute;
+}
+
 /* Animations 
   ====================================== */
 
