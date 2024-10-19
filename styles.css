@@ -386,8 +386,9 @@ a {
 }
 
 #myFaceContainer {
+  height: 100%;
   width: 40%;
-  background-color: grey;
+  background-color: rgb(255, 150, 150);
 }
 
 #myFace {
@@ -400,15 +401,6 @@ a {
   z-index: -1;
   margin-right: 15px;
 } */
-
-#aboutMeTextContainer {
-  width: 60%;
-  box-sizing: border-box;
-  padding: 50px;
-  gap: 50px;
-  justify-content: center;
-  align-items: center;
-}
 
 p {
   font-family: "Sniglet", system-ui;
