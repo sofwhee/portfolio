@@ -294,6 +294,8 @@ body {
 /* layout 
   ======================================= */
 
+/* property classes
+  ==================== */
 
 .flex {
   display: flex;
@@ -324,6 +326,9 @@ body {
   margin: 0px;
 }
 
+/* hero
+  ==================== */
+
 hero {
   height: 100vh;
   justify-content: center;
@@ -350,23 +355,13 @@ h2 {
   font-size: 4rem;
 }
 
-p {
-  font-family: "Sniglet", system-ui;
-  font-weight: 400;
-  font-style: normal;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 #langContainer {
   gap: 24px;
-}
-
-section {
-  margin: 36px;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
 }
 
 #aboutMeLinkWrapper {
@@ -379,12 +374,24 @@ a {
   outline: solid;
 }
 
+/* property classes
+  ==================== */
+
 #aboutMe {
   height: 90vh;
   width: 95vw;
   margin: auto;
   margin-bottom: 5vh;
   box-sizing: border-box;
+}
+
+#myFaceContainer {
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+
+#myFace {
+  width: 30vw;
 }
 
 #aboutMeTextContainer {
@@ -396,19 +403,16 @@ a {
   align-items: center;
 }
 
+p {
+  font-family: "Sniglet", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #aboutMeBlurb {
   font-size: 2rem;
   margin-left: 2.5vw;
   margin-right: 2.5vw;
-}
-
-#myFaceContainer {
-  margin-top: 5vh;
-  margin-left: 5vw;
-}
-
-#myFace {
-  width: 30vw;
 }
 
 #aboutMeBackground {
