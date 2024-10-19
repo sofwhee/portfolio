@@ -371,6 +371,10 @@ a {
 }
 
 #aboutMeFlexContainer {
+
+}
+
+#aboutMeTextContainer {
   height: 95vh;
   width: 95vw;
   margin: auto;
@@ -381,9 +385,6 @@ a {
   padding-bottom: 50px;
   gap:50px;
   border-radius: 3%;
-}
-
-#aboutMeTextContainer {
   justify-content: center;
   align-items: center;
 }
