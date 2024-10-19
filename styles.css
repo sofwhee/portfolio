@@ -370,14 +370,12 @@ a {
   height: 90vh;
   width: 95vw;
   margin: auto;
-  margin-top: 5vh;
-  margin-bottom: 5vh
+  margin-bottom: 5vh;
+  box-sizing: border-box;
 }
 
 #aboutMeTextContainer {
   width: 60vw;
-  margin-left: auto;
-  margin-right: 2.5vw;
   box-sizing: border-box;
   padding: 50px;
   gap: 50px;
