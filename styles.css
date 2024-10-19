@@ -392,11 +392,14 @@ a {
   margin-right: 2.5vw;
 }
 
-#myFace {
+#myFaceContainer {
   position: absolute;
-  width: 30vw;
   margin-top: 5vh;
   margin-left: 5vw;
+}
+
+#myFace {
+  width: 30vw;
 }
 
 /* Animations 
