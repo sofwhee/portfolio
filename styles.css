@@ -368,10 +368,7 @@ a {
 #aboutMe {
   height: 95vh;
   width: 95vw;
-}
-
-#aboutMeFlexContainer {
-
+  margin: auto;
 }
 
 #aboutMeTextContainer {
