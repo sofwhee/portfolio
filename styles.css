@@ -386,8 +386,8 @@ a {
 }
 
 #myFaceContainer {
-  margin-top: 5vh;
-  margin-left: 5vw;
+  top: 5vh;
+  left: 5vw;
 }
 
 #myFace {
