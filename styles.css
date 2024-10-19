@@ -388,19 +388,18 @@ a {
 #myFaceContainer {
   height: 100%;
   width: 40%;
-  background-color: rgb(255, 150, 150);
 }
 
 #myFace {
   height: 65%
 }
 
-/* #myFaceBackground {
+#myFaceBackground {
   height: 70%;
   width: 120%;
   z-index: -1;
   margin-right: 15px;
-} */
+}
 
 p {
   font-family: "Sniglet", system-ui;
