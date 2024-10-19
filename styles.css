@@ -374,11 +374,8 @@ a {
 #aboutMeTextContainer {
   width: 65vw;
   margin-left: auto;
-  margin-bottom: 2vh;
   box-sizing: border-box;
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
+  padding: 50px;
   gap:50px;
   border-radius: 3%;
   justify-content: center;
