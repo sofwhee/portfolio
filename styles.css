@@ -379,7 +379,6 @@ a {
   box-sizing: border-box;
   padding: 50px;
   gap: 50px;
-  border-radius: 3%;
   justify-content: center;
   align-items: center;
 }
@@ -404,6 +403,7 @@ a {
   height: 90vh;
   width: 95vw;
   z-index: -1;
+  border-radius: 3%;
 }
 
 /* Animations 
