@@ -388,6 +388,8 @@ a {
 
 #aboutMeBlurb {
   font-size: 2rem;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
 }
 
 #aboutMeBackground {
