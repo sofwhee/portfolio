@@ -395,6 +395,7 @@ a {
 #myFace {
   position: absolute;
   width: 30vw;
+  margin-top: 5vh;
 }
 
 /* Animations 
