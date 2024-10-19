@@ -395,10 +395,10 @@ a {
 }
 
 #myFaceBackground {
-  height: 70%;
-  width: 120%;
+  height: 60%;
+  width: 40%;
+  left: 30vw;
   z-index: -1;
-  margin-right: 15px;
 }
 
 p {
