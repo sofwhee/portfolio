@@ -392,14 +392,9 @@ a {
   margin-right: 2.5vw;
 }
 
-#aboutMeBackground {
-  height: 90vh;
-  width: 50vw;
-  position: absolute;
-}
-
 #myFace {
-
+  position: absolute;
+  width: 30vw;
 }
 
 /* Animations 
