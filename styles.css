@@ -386,9 +386,8 @@ a {
 }
 
 #myFaceContainer {
-  margin-top: 2.5vh;
-  margin-bottom: 2.5vh;
-  margin-left: 5vw;
+  width: 40%;
+  background-color: grey;
 }
 
 #myFace {
@@ -403,7 +402,7 @@ a {
 } */
 
 #aboutMeTextContainer {
-  width: 60vw;
+  width: 60%;
   box-sizing: border-box;
   padding: 50px;
   gap: 50px;
