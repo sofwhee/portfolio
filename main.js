@@ -1,4 +1,27 @@
-// generate icons at top
+// Delay animations by vertical position in html
+
+// declarations
+
+let topLevelElement = document.getElementById()
+
+// functions
+
+function animDelayThruDom(topLevelElement, delayInterval) {
+  let animDelay = 0;
+
+  for (const childElement of topLevelElement.children) {
+    if (childElement.className = "upSpawn") {
+      childElement.style.animationDelay = animDelay;
+      animDelay += delayInterval;
+    }
+  }
+}
+
+// execution
+
+// ------
+
+// Generate icons
 
 // declarations
 
@@ -19,8 +42,9 @@ const iconsDestination = document.getElementById("langContainer")
 
 function createIconElement(iconLink) {
   const newIconElement = document.createElement("img")
-  newIconElement.classname = "langIcon upSpawn"
+  newIconElement.className = "langIcon upSpawn"
   newIconElement.src = iconLink
+  newIconElement.height = 80
   return newIconElement
 }
 
@@ -34,7 +58,7 @@ function createIconElements(iconsArray_){
 
 // execution
 
-iconElements = createIconElements(iconsArray)
+let iconElements = createIconElements(iconsArray)
 for (const iconElement of iconElements) {
   iconsDestination.appendChild(iconElement)
 }
