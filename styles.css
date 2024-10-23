@@ -390,8 +390,13 @@ a {
   width: 40%;
 }
 
+#myFacePhotoContainer {
+  height: 65%;
+  right: 0;
+}
+
 #myFace {
-  height: 65%
+  height: 100%;
 }
 
 #myFaceBackground {
