@@ -397,13 +397,14 @@ a {
 
 #myFace {
   height: 100%;
+  z-index: -2;
 }
 
 #myFaceBackground {
-  height: 60%;
-  width: 40%;
-  left: 30vw;
+  height: 120%;
+  width: 120%;
   z-index: -1;
+  top: 0;
 }
 
 p {
