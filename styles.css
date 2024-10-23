@@ -395,65 +395,10 @@ a {
   outline: solid;
 }
 
-/* about me
+/* about me 
   ==================== */
-
-#aboutMe {
-  height: 90vh;
-  width: 95vw;
-  margin: auto;
-  margin-bottom: 5vh;
-  box-sizing: border-box;
-}
-
-#myFaceContainer {
-  height: 100%;
-  width: 40%;
-}
-
-#myFacePhotoContainer {
-  height: 65%;
-  right: 0;
-  top: 5%;
-}
 
 #myFace {
-  height: 100%;
-  z-index: -2;
-}
-
-#myFaceBackground {
-  height: 105%;
-  width: 105%;
-  z-index: -1;
-  top: -2.5%;
-  left: -2.5%;
-}
-
-p {
-  font-family: "Sniglet", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-#aboutMeBlurb {
-  font-size: 2rem;
-  margin-left: 2.5vw;
-  margin-right: 2.5vw;
-}
-
-#aboutMeBackground {
-  height: 100%;
-  width: 75%;
-  right: 0;
-  z-index: -2;
-  border-radius: 3%;
-}
-
-/* about me 2
-  ==================== */
-
-#myFace2 {
   border-radius: 50%;
 }
 
@@ -524,3 +469,21 @@ ul .upSpawn {
 #topIcon7 {
   animation-delay: 2.9s;
 }
+
+/* Media queries
+  ====================================== */
+
+  @media screen and (max-width: 860px) {
+    h1 {
+      font-size: 8vw;
+    }
+
+    #myFace {
+      height: auto;
+      width: 40%;
+    }
+
+    section {
+      padding-top: 20%;
+    }
+  }
