@@ -398,14 +398,18 @@ a {
 /* about me 
   ==================== */
 
-#myFace {
-  border-radius: 50%;
-}
-
 section {
   height: 100vh;
   padding: 10%;
   box-sizing: border-box;
+}
+
+#myFace {
+  border-radius: 50%;
+}
+
+#aboutMeHeading {
+  margin-top: 5%;
 }
 
 /* Animations 
