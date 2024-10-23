@@ -204,14 +204,9 @@ template {
   display: none;
 }
 
-/* ===
-   ===
-   ===
-  End of normalization. */
+/* === End of normalization === */
 
-/* My styling 
-  ============================================================================== */
-
+/* My styling */
 
 /* Fonts 
   ======================================= */
@@ -227,48 +222,6 @@ template {
   font-size: 4rem;
 }
 
-.geoRegular {
-  font-family: "Geo", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 3rem;
-}
-
-.geoItalic {
-  font-family: "Geo", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.snigletRegular {
-  font-family: "Sniglet", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.snigletExtrabold {
-  font-family: "Sniglet", system-ui;
-  font-weight: 800;
-  font-style: normal;
-}
- 
-/* <uniquifier>: Use a unique and descriptive class name */
-/* <weight>: Use a value from 300 to 700 */
-
-.spaceGroteskThin {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.spaceGrotesk {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
 /* colours 
   ======================================= */
 
@@ -277,45 +230,7 @@ body {
   color:rgb(231, 231, 231);
 }
 
-.altBackgroundColor {
-  background-color: rgb(145, 46, 136);
-}
-
-.altBackgroundColor2 {
-  /* color: rgb(255 241 73); */
-  background-color: rgb(255, 239, 64);
-}
-
-.altTextColor {
-  /* color: rgb(255 241 73); */
-  color: rgb(255, 239, 64);
-}
-
-/* Colours drawn from language logos for design */
-
-.reactLogoColor {
- background-color: #61dbfb
-}
-
-.htmlLogoColor {
- background-color: #e34c26;
- /* background-color: #f06529;
- bacgkround-color: #ebebeb;
- background-color: #ffffff; */
-}
-
-.cssLogoColor {
- background-color: #2965f1
-}
-
-.railsLogoColor {
- background-color: #CC0000
-}
-
-/* layout 
-  ======================================= */
-
-/* property classes
+/* Property classes
   ==================== */
 
 .flex {
@@ -384,23 +299,8 @@ h2 {
   font-size: 4rem;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 #langContainer {
   gap: 24px;
-}
-
-#aboutMeLinkWrapper {
-  margin-top: 24px;
-}
-
-#aboutMeLink {
-  color: rgb(255, 79, 47);
-  font-size: 3rem;
-  outline: solid;
 }
 
 /* about me 
@@ -493,11 +393,6 @@ ul .upSpawn {
     }
 
     #myFace {
-      height: auto;
       width: 40%;
-    }
-
-    section {
-      padding-top: 20%;
     }
   }
