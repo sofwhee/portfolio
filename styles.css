@@ -291,6 +291,27 @@ body {
   color: rgb(255, 239, 64);
 }
 
+/* Colours drawn from language logos for design */
+
+.reactLogoColor {
+ background-color: #61dbfb
+}
+
+.htmlLogoColor {
+ background-color: #e34c26;
+ /* background-color: #f06529;
+ bacgkround-color: #ebebeb;
+ background-color: #ffffff; */
+}
+
+.cssLogoColor {
+ background-color: #2965f1
+}
+
+.railsLogoColor {
+ background-color: #CC0000
+}
+
 /* layout 
   ======================================= */
 
