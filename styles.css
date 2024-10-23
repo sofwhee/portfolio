@@ -327,6 +327,14 @@ body {
   flex-direction: column;
 }
 
+.justifyCenter {
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
 .absolute {
   position: absolute;
 }
@@ -406,6 +414,8 @@ section {
 
 #myFace {
   border-radius: 50%;
+  height: auto;
+  width: 250px;
 }
 
 #aboutMeHeading {
