@@ -10,7 +10,7 @@ function animDelayThruDom(topLevelElement_, delayInterval) {
   let animDelay = 0;
 
   for (const childElement of topLevelElement_.children) {
-    if (childElement.className = "upSpawn") {
+    if (childElement.className == "upSpawn") {
       childElement.style.animationDelay = animDelay;
       animDelay += delayInterval;
     }
