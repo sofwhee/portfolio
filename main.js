@@ -1,12 +1,12 @@
 import { createIconImgElement, createIconElements } from "./modules/createIconElements.js";
 import { childElementsByClass } from "./modules/childElementsByClass.js";
-import { animDelayThruDom } from "./modules/animDelayThruDom.mjs";
+import { animDelayThruDom } from "./modules/animDelayThruDom.js";
 
 // icons
 // change these vars to suit needs
+const iconsDestination = document.getElementById("langContainer")
 const iconsClass = "langIcon upSpawn"
 const iconsHeight = "80px"
-const iconsDestination = document.getElementById("langContainer")
 // add icon svg link to list and it will appear on site in order
 const iconLinks = [
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
@@ -17,23 +17,16 @@ const iconLinks = [
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
 ]
-// make icon elements and apply to destination
+// create a rolling animation delay on icons
+let startingDelay = 0.8
+let delayInterval = 0.2
+
+// make icon elements
 const iconsArray_ = Array.from(iconLinks)
 const iconElements = createIconElements(iconsArray_, iconsClass, iconsHeight)
+// apply delay
+animDelayThruDom(iconElements, startingDelay, delayInterval)
+// append icons to destination element
 for (const iconElement of iconElements) {
   iconsDestination.appendChild(iconElement)
 }
-
-
-// create a rolling animation delay from parent to children based on class
-// first make a list of elements, then apply delay
-// change these vars to suit needs
-let elementParent = document.getElementById("langContainer")
-let animationName = "upSpawn" 
-// animated children
-iconElementsAnimated = childElementsByClass(elementParent, animationName)
-// change these vars to suit needs
-let startingDelay = 0.8
-let delayInterval = 0.2
-// apply delay
-animDelayThruDom(iconElements, startingDelay, delayInterval)
