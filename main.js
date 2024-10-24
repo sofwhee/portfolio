@@ -18,14 +18,12 @@ function animDelayThruDom(topLevelElement, delayInterval) {
 }
 
 // execution
-
 // ------
-
 // Generate icons
 
 // declarations
 
-// add to list and it will appear on site in order
+// add icon svg link to list and it will appear on site in order
 const iconLinks = [
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
