@@ -1,14 +1,14 @@
-function createIconImgElement(iconLink, iconClass, iconHeight) {
+function createIconImgElement(iSrc, iClass, iHeight) {
   const newIconElement = document.createElement("img")
-  newIconElement.src = iconLink
-  newIconElement.className = iconClass
-  newIconElement.height = iconHeight
+  newIconElement.src = iSrc
+  newIconElement.className = iClass
+  newIconElement.height = iHeight
   return newIconElement
 }
 
-function createIconElements(iconsArray, iconClass, iconHeight){
+function createIconElements(linksArray, iconClass, iconHeight){
   let newIconElements = []
-  for (const iconLink of iconsArray) {
+  for (const iconLink of linksArray) {
     newIconElements.push(createIconImgElement(iconLink, iconClass, iconHeight))
   }
   return newIconElements
