@@ -230,6 +230,10 @@ body {
   color:rgb(231, 231, 231);
 }
 
+.altTextColor {
+  color: rgb(255, 255, 73)
+}
+
 /* Property classes
   ==================== */
 
@@ -350,38 +354,6 @@ section {
 
 ul .upSpawn {
   animation-delay: 1.5s;
-}
-
-#topWrapper p {
-  animation-delay: 2s;
-}
-
-#topIcon1 {
-  animation-delay: 2.3s;
-}
-
-#topIcon2 {
-  animation-delay: 2.4s;
-}
-
-#topIcon3 {
-  animation-delay: 2.5s;
-}
-
-#topIcon4 {
-  animation-delay: 2.6s;
-}
-
-#topIcon5 {
-  animation-delay: 2.7s;
-}
-
-#topIcon6 {
-  animation-delay: 2.8s;
-}
-
-#topIcon7 {
-  animation-delay: 2.9s;
 }
 
 /* Media queries
