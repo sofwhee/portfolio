@@ -26,16 +26,14 @@ for (const iconElement of iconElements) {
 
 
 // create a rolling animation delay from parent to children based on class
-// first make a list of elements to apply delay ...
+// first make a list of elements, then apply delay
 // change these vars to suit needs
 let elementParent = document.getElementById("langContainer")
 let animationName = "upSpawn" 
-// child elements with specified animation name
+// animated children
 iconElementsAnimated = childElementsByClass(elementParent, animationName)
-
-// then apply delay to those children ...
 // change these vars to suit needs
 let startingDelay = 0.8
 let delayInterval = 0.2
-// apply
+// apply delay
 animDelayThruDom(iconElements, startingDelay, delayInterval)
