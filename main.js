@@ -2,14 +2,14 @@
 
 // declarations
 
-let topLevelElement = document.getElementById()
+let topLevelElement = document.body
 
 // functions
 
-function animDelayThruDom(topLevelElement, delayInterval) {
+function animDelayThruDom(topLevelElement_, delayInterval) {
   let animDelay = 0;
 
-  for (const childElement of topLevelElement.children) {
+  for (const childElement of topLevelElement_.children) {
     if (childElement.className = "upSpawn") {
       childElement.style.animationDelay = animDelay;
       animDelay += delayInterval;
@@ -60,3 +60,5 @@ let iconElements = createIconElements(iconsArray)
 for (const iconElement of iconElements) {
   iconsDestination.appendChild(iconElement)
 }
+
+animDelayThruDom(topLevelElement, 0.2)
