@@ -9,9 +9,9 @@ function animDelayThruDom(elementChildrenArray, animName, delayInterval) {
   let animDelay = 0;
 
   for (const childElement of elementChildrenArray) {
-    if (childElement.className = animName) {
+    if (childElement.className == animName) {
       childElement.style.animationDelay = animDelay;
       animDelay += delayInterval;
-    }
-  }
-}
+    };
+  };
+};

@@ -1,21 +1,22 @@
 // Delay animations by vertical position in html
 
-// declarations
-
-let topLevelElement = document.body
-
 // functions
 
-function animDelayThruDom(topLevelElement_, delayInterval) {
-  let animDelay = 0;
+function childElementsByClass(parent, elClass, elList) {
+  if (parent.children.length == 0) {return};
+  for (childElement of parent.children) {
+    if (childElement.className == elClass) {elList.push(childElement)}
+  };
+};
 
-  for (const childElement of topLevelElement_.children) {
-    if (childElement.className == "upSpawn") {
-      childElement.style.animationDelay = animDelay;
-      animDelay += delayInterval;
-    }
-  }
-}
+function animDelayThruDom(elementChildren, initialDelay, delayInterval) {
+  let animDelay = initialDelay
+
+  for (const childElement of elementChildren) {
+    childElement.style.animationDelay = `${animDelay}s`;
+    animDelay += delayInterval;
+  };
+};
 
 // execution
 // ------
@@ -61,4 +62,6 @@ for (const iconElement of iconElements) {
   iconsDestination.appendChild(iconElement)
 }
 
-animDelayThruDom(topLevelElement, 0.2)
+// childElementsByClass(elementParent, "upSpawn", elementChildren_)
+
+animDelayThruDom(iconElements, 0.8, 0.2)
