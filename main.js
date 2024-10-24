@@ -1,6 +1,6 @@
 import { createIconImgElement, createIconElements } from "./modules/createIconElements.js";
+import { childElementsByClass } from "./modules/childElementsByClass.js";
 import { animDelayThruDom } from "./modules/animDelayThruDom.mjs";
-// import { childElementsByClass } from "./modules/childElementsByClass.js";
 
 // icons
 // change these vars to suit needs
@@ -26,9 +26,15 @@ for (const iconElement of iconElements) {
 
 
 // create a rolling animation delay from parent to children based on class
+// first make a list of elements to apply delay ...
 // change these vars to suit needs
 let elementParent = document.getElementById("langContainer")
 let animationName = "upSpawn" 
+// child elements with specified animation name
+iconElementsAnimated = childElementsByClass(elementParent, animationName)
+
+// then apply delay to those children ...
+// change these vars to suit needs
 let startingDelay = 0.8
 let delayInterval = 0.2
 // apply
