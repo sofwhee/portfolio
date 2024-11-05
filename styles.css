@@ -379,6 +379,11 @@ ul .upSpawn {
       width: 11vw;
     }
 
+    #aboutMeFlexContainer {
+      height: g100%;
+      justify-content: center;
+    }
+
     #myFace {
       width: 40%;
     }
