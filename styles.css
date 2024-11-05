@@ -369,6 +369,16 @@ ul .upSpawn {
       font-size: 8vw;
     }
 
+    #langContainer {
+      margin-left: 2vw;
+      margin-right: 2vw;
+    }
+
+    .langIcon {
+      height: auto;
+      width: 11vw;
+    }
+
     #myFace {
       width: 40%;
     }
