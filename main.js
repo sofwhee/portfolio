@@ -21,7 +21,7 @@ const iconLinks = [
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
 ]
 // create a rolling animation delay on icons
-let startingDelay = 0.5git ad
+let startingDelay = 0.5
 let delayInterval = 0.1
 
 // - execution -
