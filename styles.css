@@ -305,6 +305,7 @@ h2 {
 
 #langContainer {
   gap: 12px;
+  flex-flow: wrap;
 }
 
 /* about me 
