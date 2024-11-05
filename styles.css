@@ -346,6 +346,7 @@ section {
   animation-timing-function: ease-out;
   animation-delay: .3s;
   animation-fill-mode: both;
+  opacity: 0;
 }
 
 .upSpawnActive {

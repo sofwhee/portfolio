@@ -42,8 +42,6 @@ for (const iconElement of iconElements) {
 let animatedElements = document.querySelectorAll('.upSpawn')
 
 // - execution -
-// make intObs
-
 const options = {
   root: null,
   rootMargin: "0px",
