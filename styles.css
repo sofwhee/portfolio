@@ -274,6 +274,15 @@ body {
   margin: 0px;
 }
 
+/* nav
+  ==================== */
+
+nav {
+  position: fixed;
+  width: 100vw;
+  max-width: 100%;
+}
+
 /* hero
   ==================== */
 
