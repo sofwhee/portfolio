@@ -3,12 +3,14 @@ import { createIconImgElement, createIconElements } from "./modules/createIconEl
 // import { childElementsByClass } from "./modules/childElementsByClass.js";
 import { animDelayThruDom } from "./modules/animDelayThruDom.js";
 
-// icons
-// customizable variables:
+// --- Add Icons ---
+
+// - variables -
+
 const iconsDestination = document.getElementById("langContainer")
 const iconsClass = "langIcon upSpawn"
 const iconsHeight = "80"
-// add icon svg link to list and it will appear on site in order
+// add icon svg link to list and it will appear on site in order!
 const iconLinks = [
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
@@ -21,7 +23,8 @@ const iconLinks = [
 // create a rolling animation delay on icons
 let startingDelay = 0.6
 let delayInterval = 0.2
-// --end--
+
+// - execution -
 
 // make icon elements
 const linkArray = Array.from(iconLinks)
@@ -32,3 +35,31 @@ animDelayThruDom(iconElements, startingDelay, delayInterval)
 for (const iconElement of iconElements) {
   iconsDestination.appendChild(iconElement)
 }
+
+// --- Animate on Scroll ---
+
+// - variables -
+let animatedElements = document.querySelectorAll('.upSpawn')
+
+// - execution -
+// make intObs
+
+const options = {
+  root: null,
+  rootMargin: "0px",
+  threshold: 1.0,
+};
+
+const animOnScrollCallback = (entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting){
+      entry.target.classList.add('upSpawnActive');
+    }
+  });
+};
+
+let observer = new IntersectionObserver(animOnScrollCallback, options)
+
+animatedElements.forEach(animatedElement => {
+  observer.observe(animatedElement);
+});

@@ -342,11 +342,14 @@ section {
 }
 
 .upSpawn {  
-  animation-name: up-spawn;
   animation-duration: .75s;
   animation-timing-function: ease-out;
   animation-delay: .3s;
   animation-fill-mode: both;
+}
+
+.upSpawnActive {
+  animation-name: up-spawn;
 }
 
 #name {
