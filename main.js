@@ -40,6 +40,7 @@ for (const iconElement of iconElements) {
 
 // - variables -
 let animatedElements = document.querySelectorAll('.upSpawn')
+let animationTrigger = "upSpawnActive"
 
 // - execution -
 const options = {
@@ -51,7 +52,7 @@ const options = {
 const animOnScrollCallback = (entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting){
-      entry.target.classList.add('upSpawnActive');
+      entry.target.classList.add(animationTrigger);
     }
   });
 };

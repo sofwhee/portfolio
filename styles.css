@@ -281,6 +281,28 @@ nav {
   position: fixed;
   width: 100vw;
   max-width: 100%;
+  box-sizing: border-box;
+  padding: 1vh;
+  z-index: 1;
+
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 330;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+  font-size: 2.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  vertical-align: bottom;
+  padding: 15%;
+  border-radius: 15%;
 }
 
 /* hero
