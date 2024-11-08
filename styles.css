@@ -282,7 +282,7 @@ nav {
   width: 100vw;
   max-width: 100%;
   box-sizing: border-box;
-  padding: 1vh;
+  padding: 20px;
   z-index: 1;
 
   font-family: "Handjet", sans-serif;
@@ -293,10 +293,13 @@ nav {
     "ELGR" 1,
     "ELSH" 2;
   font-size: 2.8rem;
+
+  justify-content: flex-end;
 }
 
 a {
   text-decoration: none;
+  opacity: 50%;
 }
 
 a img {
@@ -308,6 +311,7 @@ a img {
 
 #githubLogo {
   border-radius: 50%;
+  margin-right: 5%
 }
 
 #navlink1 {
@@ -399,6 +403,14 @@ section {
 
 ul .upSpawn {
   animation-delay: 1.5s;
+}
+
+.navbarLink {
+  transition: opacity 0.5s ease 0s;
+}
+
+.navbarLink:hover {
+  opacity: 100%;
 }
 
 /* Media queries
